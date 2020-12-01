@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-ping-poller",
+  "name": "simple-host-monitor",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -23,13 +23,5 @@
   "directories": {
     "lib": "lib"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/reimert/nodejs-ping-poller.git"
-  },
-  "bugs": {
-    "url": "https://github.com/reimert/nodejs-ping-poller/issues"
-  },
-  "homepage": "https://github.com/reimert/nodejs-ping-poller#readme",
   "description": ""
 }
