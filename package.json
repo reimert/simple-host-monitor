@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-ping-poller",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Reimert Smit",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.2",
+    "ip-cidr": "^2.1.0",
+    "net-ping": "^1.2.3",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reimert/nodejs-ping-poller.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reimert/nodejs-ping-poller/issues"
+  },
+  "homepage": "https://github.com/reimert/nodejs-ping-poller#readme",
+  "description": ""
+}

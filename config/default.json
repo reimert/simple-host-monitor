@@ -1,0 +1,81 @@
+{
+  "app": {
+    "logLevel": "debug",
+    "pollInterval": 30000,
+    "errorBackoffFactor": 3
+  },
+  "network": {
+    "mac": "78:4f:43:8c:d5:c2"
+  },
+  "pollers": [
+    {
+      "pollerId": 10000,
+      "name": "memory",
+      "attributes": [
+        {
+          "attributeId": 10001,
+          "name": "totalMemory",
+          "dimension": "bytes"
+        },
+        {
+          "attributeId": 10002,
+          "name": "freeMemory",
+          "dimension": "bytes"
+        },
+        {
+          "attributeId": 10003,
+          "name": "usedMemory",
+          "dimension": "bytes"
+        }
+      ]
+    },
+    {
+      "pollerId": 20000,
+      "name": "cpuUtil",
+      "attributes": [
+        {
+          "attributeId": 20001,
+          "name": "util1Min",
+          "dimension": "%"
+        },
+        {
+          "attributeId": 20002,
+          "name": "util5Min",
+          "dimension": "%"
+        },
+        {
+          "attributeId": 20003,
+          "name": "util15Min",
+          "dimension": "%"
+        }
+      ]
+    },
+    {
+      "pollerId": 30000,
+      "name": "uptime",
+      "attributes": [
+        {
+          "attributeId": 30001,
+          "name": "uptime",
+          "dimension": "seconds"
+        }
+      ]
+    },
+    {
+      "pollerId": 50000,
+      "name": "hostDiscovery",
+      "attributes": [
+        {
+          "attributeId": 50001,
+          "name": "ipAddress",
+          "dimension": "ipAddress"
+        },
+        {
+          "attributeId": 50002,
+          "name": "macAddress",
+          "dimension": "macAddress"
+        }
+      ]
+    }
+  ]
+}
